@@ -1,0 +1,177 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3{
+  font-weight: bold;
+}
+
+/* Heading */
+.big-heading{
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* container*/
+.container-fluid{
+  padding: 8% 15%;
+}
+
+/* Section */
+.colored-section{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section{
+  background-color: #fff;
+}
+
+/*Navigation Bar*/
+.navbar{
+  padding:0 0 4.5rem;
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.5rem;
+}
+
+/*Buttons*/
+.dwnld{
+  margin: 2.5% 1.5% 2.5% 1.5%;
+}
+
+/* Title */
+#title .container-fluid {
+  padding: 3% 15% 8%;
+  text-align: left;
+}
+
+/*Title img*/
+/*parent has to be set "relative" for its child that is "absolute" to position itself relative to it's parent */
+.img-div{
+  position: relative;
+}
+
+.title-img{
+  position: absolute;
+  right: 25%;
+  transform: rotate(25deg);
+  width: 60%;
+}
+
+/* Features */
+
+#features{
+  position: relative;
+  background-color: #fff;
+  padding-top: 15%;
+}
+
+.features_head{
+  font-size: 1.5rem;
+}
+
+.features_para{
+  color: #8f8f8f;
+}
+
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #ff4c68;
+}
+
+/* Testimonials  */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.carousel-item{
+  padding:7% 15%;
+}
+
+.testimonial-img{
+  border-radius: 100%;
+  clear: right;
+  margin: 15px;
+  width: 15%;
+}
+
+/*Press*/
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.logo{
+  margin: 20px 20px 50px;
+  width: 15%;
+}
+
+/* Pricing */
+
+#pricing{
+  padding: 8%;
+}
+
+.pricing-text{
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+.price-card{
+  /* height: 100%; */
+  margin: 2%;
+}
+
+.price-col{
+  padding: 3% 2%;
+}
+
+/* footer */
+#footer{
+  color: #8f8f8f;
+}
+
+.social-handle{
+  color: #000;
+  margin: 20px;
+}
+
+/* media */
+@media (max-width: 1008px){
+  #title{
+    text-align: center;
+  }
+  .title-img{
+    position: static;
+    transform: rotate(0);
+  }
+}
